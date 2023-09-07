@@ -1,57 +1,47 @@
 {
-  "name": "ngx-emoji-mart",
-  "version": "0.0.1",
-  "scripts": {
-    "ng": "ng",
-    "start": "ng serve",
-    "build": "ng build --prod",
-    "test": "ng test",
-    "lint": "ng lint",
-    "e2e": "ng e2e",
-    "clean": "rimraf './dist'",
-    "watch": "tsc --watch",
-    "prepublishOnly": "npm run build",
-    "prepare": "npm run build"
-
+  "name": "ngx-emoji-picker",
+  "author": {
+    "name": "Victor Aremu",
+    "email": "victor.olorunbunmi@gmail.com",
+    "url": "https://github.com/ahkohd/ngx-emoji-picker"
   },
-  "private": true,
+  "version": "0.1.6",
+  "description": "A simple emoji picker for Angular 2+ / Ionic 3 with AOT build support",
+  "keywords": [
+    "emoji",
+    "picker",
+    "angular",
+    "angular2",
+    "angular7",
+    "angular8",
+    "angular9",
+    "ionic3",
+    "ionic",
+    "ngx",
+    "dropdown",
+    "aot"
+  ],
+  "homepage": "https://github.com/ahkohd/ngx-emoji-picker",
+  "license": "MIT",
+  "peerDependencies": {
+    "@angular/common": "^9.1.9",
+    "@angular/core": "^9.1.9",
+    "twemoji": "^13.0.1"
+  },
+  "whitelistedNonPeerDependencies": [
+    "twemoji"
+  ],
   "dependencies": {
-    "@angular/animations": "9.1.9",
-    "@angular/common": "9.1.9",
-    "@angular/compiler": "9.1.9",
-    "@angular/core": "9.1.9",
-    "@angular/forms": "9.1.9",
-    "@angular/platform-browser": "9.1.9",
-    "@angular/platform-browser-dynamic": "9.1.9",
-    "@angular/router": "9.1.9",
-    "core-js": "2.6.1",
-    "rxjs": "6.5.5",
-    "tslib": "1.13.0",
-    "twemoji": "^13.0.1",
-    "zone.js": "0.10.3"
+    "tslib": "^1.10.0"
   },
-  "devDependencies": {
-    "@angular-devkit/build-angular": "0.901.7",
-    "@angular-devkit/build-ng-packagr": "0.901.7",
-    "@angular/cli": "9.1.7",
-    "@angular/compiler-cli": "9.1.9",
-    "@angular/language-service": "9.1.9",
-    "@types/node": "12.12.45",
-    "@types/jasmine": "2.8.12",
-    "@types/jasminewd2": "2.0.6",
-    "codelyzer": "5.2.2",
-    "jasmine-core": "2.99.1",
-    "jasmine-spec-reporter": "4.2.1",
-    "karma": "3.1.4",
-    "karma-chrome-launcher": "2.2.0",
-    "karma-coverage-istanbul-reporter": "2.0.4",
-    "karma-jasmine": "1.1.2",
-    "karma-jasmine-html-reporter": "0.2.2",
-    "ng-packagr": "9.1.5",
-    "protractor": "5.4.1",
-    "ts-node": "7.0.1",
-    "tslib": "1.9.3",
-    "tslint": "5.11.0",
-    "typescript": "3.8.3"
-  }
+  "main": "bundles/ngx-emoji-picker.umd.js",
+  "module": "fesm5/ngx-emoji-picker.js",
+  "es2015": "fesm2015/ngx-emoji-picker.js",
+  "esm5": "esm5/ngx-emoji-picker.js",
+  "esm2015": "esm2015/ngx-emoji-picker.js",
+  "fesm5": "fesm5/ngx-emoji-picker.js",
+  "fesm2015": "fesm2015/ngx-emoji-picker.js",
+  "typings": "ngx-emoji-picker.d.ts",
+  "metadata": "ngx-emoji-picker.metadata.json",
+  "sideEffects": false
 }
